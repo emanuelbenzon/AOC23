@@ -1,4 +1,4 @@
-with open("in.txt") as f:
+with open("1dec/in1.txt") as f:
     input = f.read()
 
 svar1 = 0
@@ -13,9 +13,6 @@ for line in input.split("\n"):
     svar1 += int(first + last)
 
 print(svar1)
-
-
-
 
 
 dict = {
